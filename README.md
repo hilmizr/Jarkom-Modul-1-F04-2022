@@ -26,6 +26,14 @@ Nama server yang digunakan adalah **nginx/1.10.3**
 
 Judul TA yang dicari Ishaq adalah **Evaluasi Unjuk Kerja User Space Filesystem (FUSE)**
 
+4. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
+Jalankan FileZilla server dan client, kemudian gunakan capture filter dengan ekspresi “src port 21”
+
+![image](https://user-images.githubusercontent.com/86661387/192102593-c95550bc-149c-48c9-9a59-b51f41e114cd.png)
+
+
+Kendala: tidak dapat menemukan paket yang berasal dari port 21 ataupun paket dengan protokol FTP meskipun sudah berhasil menjalankan FileZilla client-server, hingga dapat melakukan proses transfer antar server dan client.
+
 8. Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu menerapkan filter dengan protokol yang tersebut.
 
 - Pertama, terdapat dua jenis protokol pada file .pcap yang diberikan, yaitu UDP dan TCP. Dilakukan eksplorasi pada paket-paket dengan protocol TCP terlebih dahulu. Hal ini dapat dilakukan dengan filter “tcp.stream” untuk menampilkan seluruh paket dengan protokol TCP.
