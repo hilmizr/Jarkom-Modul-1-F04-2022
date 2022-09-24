@@ -1,4 +1,4 @@
-# Lapres Modul 1 Jaringkan Komputer
+# Lapres Modul 1 Jaringan Komputer
 
 
 
