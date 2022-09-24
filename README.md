@@ -26,13 +26,45 @@ Nama server yang digunakan adalah **nginx/1.10.3**
 
 Judul TA yang dicari Ishaq adalah **Evaluasi Unjuk Kerja User Space Filesystem (FUSE)**
 
+3. Filter sehingga wireshark hanya menampilkan paket yang menuju port 80!
+
+- Gunakan capture filter dengan ekspresi “dst port 80”
+
+![jarkom1](https://user-images.githubusercontent.com/70790033/192103075-d23343ff-20a4-4522-b733-3f5c6c8edc50.png)
+
+![jarkom2](https://user-images.githubusercontent.com/70790033/192103078-bce5cd2d-d100-4a66-8fe6-5f27cb194336.png)
+
 4. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
-Jalankan FileZilla server dan client, kemudian gunakan capture filter dengan ekspresi “src port 21”
+- Jalankan FileZilla server dan client, kemudian gunakan capture filter dengan ekspresi “src port 21”
 
 ![image](https://user-images.githubusercontent.com/86661387/192102593-c95550bc-149c-48c9-9a59-b51f41e114cd.png)
 
+- Kendala: tidak dapat menemukan paket yang berasal dari port 21 ataupun paket dengan protokol FTP meskipun sudah berhasil menjalankan FileZilla client-server, hingga dapat melakukan proses transfer antar server dan client.
 
-Kendala: tidak dapat menemukan paket yang berasal dari port 21 ataupun paket dengan protokol FTP meskipun sudah berhasil menjalankan FileZilla client-server, hingga dapat melakukan proses transfer antar server dan client.
+5. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
+
+- Gunakan capture filter dengan ekspresi src port 443
+
+![no5_1](https://user-images.githubusercontent.com/70790033/192103134-bb9cbb0b-ad4a-4b03-a01f-7f6008853cd4.png)
+
+![no5_2](https://user-images.githubusercontent.com/70790033/192103137-eef6ed21-dcc2-4fc8-ac82-e03524c340e2.png)
+
+6. Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id!
+
+- Gunakan display filter dengan ekspresi http.host == "lipi.go.id"
+
+![no6_1](https://user-images.githubusercontent.com/70790033/192103193-54a2460f-36da-4c78-868e-7d563369e6d9.png)
+
+7. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+- Pertama, periksa IP dengan menjalankan ipconfig di cmd. 
+
+- Kemudian, gunakan capture filter dengan ekspresi src host ip_address.
+IP address saya adalah 192.168.100.53, maka saya menggunakan ekspresi src host 192.168.100.53.
+
+![no7_1](https://user-images.githubusercontent.com/70790033/192103282-f1fe015f-c08b-4525-8e35-c4349ce1a717.png)
+
+![no7_2](https://user-images.githubusercontent.com/70790033/192103284-3b24eb5a-3a9d-4f82-865c-682af678eccb.png)
 
 8. Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu menerapkan filter dengan protokol yang tersebut.
 
