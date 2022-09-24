@@ -1,4 +1,4 @@
-# Lapres Modul 1 Jaringkan Komputer
+# Lapres Modul 1 Jaringan Komputer
 
 
 
@@ -25,6 +25,14 @@ Nama server yang digunakan adalah **nginx/1.10.3**
 <img width="944" alt="image11" src="https://user-images.githubusercontent.com/84707727/192101943-c45ee061-f9b9-4bd7-ae23-5a869c61916c.png">
 
 Judul TA yang dicari Ishaq adalah **Evaluasi Unjuk Kerja User Space Filesystem (FUSE)**
+
+4. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
+Jalankan FileZilla server dan client, kemudian gunakan capture filter dengan ekspresi “src port 21”
+
+![image](https://user-images.githubusercontent.com/86661387/192102593-c95550bc-149c-48c9-9a59-b51f41e114cd.png)
+
+
+Kendala: tidak dapat menemukan paket yang berasal dari port 21 ataupun paket dengan protokol FTP meskipun sudah berhasil menjalankan FileZilla client-server, hingga dapat melakukan proses transfer antar server dan client.
 
 8. Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu menerapkan filter dengan protokol yang tersebut.
 
