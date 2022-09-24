@@ -1,7 +1,11 @@
 # Lapres Modul 1 Jaringan Komputer
 
+## Anggota
+- Hilmi Zharfan Rachmadi - 5025201268
+- Ida Bagus Kade Rainata Putra Wibawa - 5025201235
+- Naufal Faadhilah - 5025201221
 
-
+## Soal dan Jawaban
 1. Sebutkan web server yang digunakan pada "monta.if.its.ac.id"!
 
 - Buka wireshark (soal1-2.pcapng), access monta.if.its.ac.id
