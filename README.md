@@ -8,8 +8,10 @@
 ## Pembagian Tugas
 - Ida Bagus Kade Rainata Putra Wibawa 
   - Nomor 1,2,3,8
+  - Lapres
 - Hilmi Zharfan Rachmadi & Naufal Faadhilah
   - Nomor 4,5,6,7
+  - Lapres
 
 ## Soal dan Jawaban
 1. Sebutkan web server yang digunakan pada "monta.if.its.ac.id"!
