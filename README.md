@@ -5,6 +5,12 @@
 - Ida Bagus Kade Rainata Putra Wibawa - 5025201235 (Mengerjakan soal nomor 1,2,3)
 - Naufal Faadhilah - 5025201221
 
+## Pembagian Tugas
+- Ida Bagus Kade Rainata Putra Wibawa 
+  - Nomor 1,2,3,8
+- Hilmi Zharfan Rachmadi & Naufal Faadhilah
+  - Nomor 4,5,6,7
+
 ## Soal dan Jawaban
 1. Sebutkan web server yang digunakan pada "monta.if.its.ac.id"!
 
